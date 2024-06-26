@@ -11685,6 +11685,10 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/FulfillmentId'
+        releaseSpecifications:
+          type: array
+          items:
+            $ref: '#/components/schemas/RefundSpecification'
         overruleCode:
           $ref: '#/components/schemas/OverruleCode'
 
